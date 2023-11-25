@@ -6,3 +6,5 @@ class User(db.Model):
     name = db.Column(db.String(150))
     points = db.Column(db.Integer)
     tookPart = db.Column(db.Integer)
+
+
